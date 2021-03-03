@@ -39,8 +39,10 @@ module.exports = function () {
     this.login = function (email,password) {
         this.enterEmail(email);
         this.enterUserPassword(password);
+         waitActions.waitForElementIsDisplayed()
         this.clickLogin();
            waitActions.waitForElementIsDisplayed()
+        
     }
 
 };
