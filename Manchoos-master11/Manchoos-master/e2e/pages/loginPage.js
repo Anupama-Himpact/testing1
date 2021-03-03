@@ -40,7 +40,7 @@ module.exports = function () {
         this.enterEmail(email);
         this.enterUserPassword(password);
         this.clickLogin();
-         waitActions.wait()
+           waitActions.waitForElementIsDisplayed()
     }
 
 };
