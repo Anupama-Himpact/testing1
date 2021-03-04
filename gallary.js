@@ -64,7 +64,7 @@ describe('Manchoos log in', function () {
         browser.findElement(By.css('input[placeholder="Title"]')).clear()
         browser.sleep(1000)
         browser.findElement(By.css('input[placeholder="Title"]')).sendKeys('hotel')
-        browser.sleep(1000)
+        browser.sleep(10000)
         browser.findElement(by.xpath("//*[text()=' Save ']")).click()
         
        // ************finding the text(Ambiance) using the get text********
