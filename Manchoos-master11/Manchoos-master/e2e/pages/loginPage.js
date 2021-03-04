@@ -38,7 +38,7 @@ module.exports = function () {
 
     this.login = function (email,password) {
         this.enterEmail(email);
-       
+       waitActions.waitForElementIsDisplayed()
         this.enterUserPassword(password);
          waitActions.waitForElementIsDisplayed()
         this.clickLogin();
