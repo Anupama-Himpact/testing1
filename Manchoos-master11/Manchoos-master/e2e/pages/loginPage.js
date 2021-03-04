@@ -42,7 +42,6 @@ module.exports = function () {
         this.enterUserPassword(password);
          waitActions.waitForElementIsDisplayed()
         this.clickLogin();
-           waitActions.waitForElementIsDisplayed()
         
     }
 
