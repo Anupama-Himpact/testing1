@@ -50,7 +50,7 @@ describe('Manchoos log in', function () {
          console.log("food stared")
          browser.sleep(2000)
          browser.findElement(by.xpath('(//li[@class="nav-item min-deff-width mr-5 ng-star-inserted"])[2]')).click()
-         browser.sleep(2000)
+         browser.sleep(1000)
          let image1="C:\\Users\\91990\\Desktop\\documents\\download.jpg";
          browser.findElement(By.xpath("(//span[text()='Add Image']/following::input[@type='file'])")).sendKeys(image1)
         browser.findElement(by.xpath("//*[text()='Save Changes']")).click()
